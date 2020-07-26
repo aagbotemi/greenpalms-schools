@@ -1,0 +1,37 @@
+.gallery {
+    margin: 75px 70px 0px 70px;
+    overflow-x: hidden;
+}
+
+.gallery h2 span{
+    color: #dd383a;
+}
+
+.gallery .row .col-md-4 .card {
+    border: none;
+}
+
+.gallery .row .col-md-4 .card img {
+    height: 60vh;
+    margin-bottom: 2rem;
+}
+
+.gallery .row .col-md-4 .card img:hover {
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.43);
+}
+
+
+@media (max-width: 767px) {
+    .gallery .row .col-md-4 img {
+        margin-bottom: 1.92em;
+    }
+}
+
+@media (max-width: 500px) {
+    .gallery {
+        margin: 4rem 1.3rem 0 1.3rem;
+    }
+    .gallery h2 {
+        font-size: 1.4rem;
+    }
+}

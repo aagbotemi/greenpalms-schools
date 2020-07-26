@@ -1,0 +1,159 @@
+.about {
+    margin: 75px 70px 0px 70px;
+}
+
+.about h2 {
+    color: #dd383a;
+}
+
+.showcase-img img {
+    height: 400px;
+    width: 100vw;
+}
+
+/*ACCOMPLISHMENT*/
+.accomplishment {
+    background: #2dcf99;
+    overflow-x: hidden;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.accomplishment .row .col-md-3 i {
+    color: #dd383a;
+    font-size: 2.8rem;
+}
+
+.accomplishment .row .col-md-3 h5 {
+    font-weight: bold;
+}
+
+/*OUR TEACHERS*/
+.teachers .d-flex  {
+    font-size: 30px;
+}
+
+
+.teachers .d-flex span {
+    color: #dd383a;
+}
+
+.teachers hr {
+    margin-top: -0.466rem !important;
+	width: 7rem;
+    margin: auto;
+	border-bottom: 3px solid #1dbb86;
+}
+
+.teachers .row {
+    margin: 0rem 1.8rem 0rem 1.8rem;
+}
+
+.teachers .row .col-md-4 .card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.432);
+    border: none;
+}
+
+.teachers .row .col-md-4 .card img {
+    height: 70vh;
+
+}
+.teachers .row .col-md-4 .card .card-body {
+    background: #dd383a;
+}
+
+.teachers .row .col-md-4 .card .card-body .links{
+    background: #4e4e4e;
+    display: none;
+    padding: 5px;
+}
+
+.teachers .row .col-md-4 .card .card-body .links:hover{
+    display: inherit;
+}
+
+.teachers .row .col-md-4 .card .card-body .links a {
+    margin-right: 5%;
+    margin: 5%;
+}
+
+.teachers .row .col-md-4 .card .card-body .links a i {
+    color: #1dbb86;
+    font-size: 20px;
+}
+
+@media (max-width: 814px) {
+    .teachers .row .col-md-4 .card .card-body .card-title {
+        font-size: 18px;
+    }
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 767px) {
+    .testimonial-body > img {
+        width: 50vw;
+    }
+    .about .row .col-md-6 .about-text {
+        margin: 1.9rem -2.5rem 0rem -2.5rem !important;
+    }
+    .about .row .about-text p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    .accomplishment .row .col-md-3 {
+        margin-bottom: 25px;
+    }
+    .teachers .row .col-md-4 {
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .about {
+        margin: 35px 20px 0px 25px;
+        overflow-x: hidden;
+    }
+    .about h2 {
+        margin: 55px 0px -10px 0px;
+        font-size: 20px;
+    }
+    .showcase-img img {
+        margin-bottom: 20px;
+        height: 300px;
+        width: 100vw;
+    }
+    .about .row .about-text {
+        font-size: 14px;
+    }
+    .about .row .about-text p {
+        margin: -0.5rem 2.5rem 0rem 2.5rem !important;
+    }
+    /*SERVICES*/
+    .services {
+        padding: 0px 5% 0px 10%;
+    }
+    .services h3 {
+    font-size: 25px;
+    }
+    .services .row div i {
+        font-size: 30px;
+    }
+    .services .row .col-md-4 h5 {
+        font-size: 14px;
+    }
+    .services .row .col-md-4 p {
+        font-size: 12px;
+    }
+    /*TESTIMONIAL*/
+    .testimonial {
+        margin: auto;
+        padding: 0 .9rem;
+    }
+    .testimonial h3 {
+        font-size: 20px;
+    }
+    .testimonial-body {
+	padding: 0 1rem .8rem 1rem;
+    margin-top: 30px;
+	position: relative;
+    }
+}

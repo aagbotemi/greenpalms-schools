@@ -1,0 +1,459 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, p, div {
+	margin: 0;
+	padding: 0;
+}
+
+/*Showcase*/ 
+.showcase {
+	position: relative;
+	color: #fff;
+	margin: auto;
+}
+
+.showcase-img {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+.showcase-img img {
+	min-width: 100vw;
+	max-height: 120vh;
+}
+
+
+/*SHOWCASE Caption text */
+.showcase .content {
+    position: absolute;
+    top: 16vw;
+    left: 18vw;
+	/* width: 550px; */
+}
+
+.showcase .content h2 {
+	font-size: 40px;
+}
+
+.showcase .content p {
+	margin-top: 10px;
+}
+
+.showcase .content .btn {
+	background: #1dbb86;
+	margin-top: 10px;
+	outline: none;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	padding: 10px 25px;
+}
+
+.showcase .content .btn:hover {
+	background: #efefef;
+	color: #1dbb86;
+}
+
+.showcase .content .apply {
+	background: #efefef;
+	margin-top: 10px;
+	outline: none;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #1dbb86;
+	padding: 10px 25px;
+}
+
+.showcase .content .apply:hover, .showcase .content .apply .fa-pen-fancy:hover {
+	background: #1dbb86;
+	color: #efefef;
+}
+
+.showcase .content .apply .fa-pen-fancy {
+	color: #1dbb86;
+}
+
+/* Hide the images by default */
+.mySlides {
+	display: none;
+}
+
+.showcase-header {
+	font-size: 4.3rem;
+	margin-bottom: 20px;
+}
+
+.showcase-info {
+	font-size: 0.9rem;
+	line-height: 1.5;
+	margin-bottom: 50px;
+	color: #c4c4c4;
+}
+
+.showcase-button {
+	border: none;
+	background: #dd383a;
+	color: #fff;
+	border-radius: 4px;
+	font-size: 18px;
+	width: 239px;
+	height: 50px;
+}
+
+.showcase-button:hover {
+	opacity: 0.8;
+}
+
+/*WHAT WE DO*/
+.educational .text h2 span {
+	color: #dd383a;
+}
+
+.educational .text h2 {
+	margin-bottom: -0.02rem;
+}
+
+.educational .text hr {
+	width: 8rem;
+	margin: auto;
+	border-bottom: 3px solid #1dbb86;
+}
+
+.educational .text p {
+	font-size: 1.18rem;
+	margin-top: 0.6rem;
+}
+
+.educational .row .col-md-4 .card {
+	border: none;
+}
+
+.educational .row .col-md-4 .card .card-body {
+	margin-left: -1rem;
+}
+
+.educational .row .col-md-4 .card .card-body p {
+	opacity: 0.76;
+}
+
+.educational .row .col-md-4 .card img {
+	height: 22rem;
+}
+
+/*ENROLL*/
+.enroll {
+	background: #0a223d;
+	margin-bottom: -3rem;
+}
+
+.enroll .row {
+	margin: 1rem 4rem 0rem 4rem;
+}
+
+.enroll h3 {
+	background: #dd383a;
+	color: #efefef;
+	border-radius: 10px 10px 0px 0px;
+	
+}
+
+.enroll form {
+	background: #cdcdcd;
+	padding: 1.7rem 3rem 3rem 3rem;
+	margin-top: -0.5rem;
+	border-radius: 0px 0px 10px 10px;
+}
+
+.enroll form .form-group label {
+	font-size: 18px;
+	font-weight: bold;
+	opacity: 0.7;
+}
+
+.enroll .row .col-md-6 form .form-group input,
+.enroll form .form-group textarea {
+	width: 100%;
+	border: none;
+	padding: 10px;
+}
+
+.enroll .row .col-md-6 form .form-group input:focus,
+.enroll .row .col-md-6 form .form-group textarea:focus {
+	outline: none;
+	border: 2px solid #dd383a;
+	border-radius: 5px;
+}
+
+.enroll .row .col-md-6 form .btn {
+	background: #4e4e4e;
+	color: #fff;
+	font-weight: bold;
+	padding: 9px 20px;
+}
+
+.enroll .row .col-md-6 form .btn:hover {
+	background: #dd383a;
+}
+
+.enroll .row .col-md-6 h2, .enroll .row .col-md-6 p {
+	color: #cdcdcd;
+}
+
+/* Footer */
+footer {
+	background: #434343;
+	padding: 5rem 5rem 2rem 5rem;
+	color: #fff;
+}
+
+.footer h3 {
+	color: #dd383a;
+	font-size: 1.2rem;
+	margin-bottom: 15px;
+	opacity: 0.89;
+}
+
+.footer p {
+	font-size: 15px;
+	opacity: 0.5;
+}
+
+.footer ul {
+	list-style: none;
+}
+
+footer ul li {
+	margin: 10px 0;
+	font-size: 15px;
+	opacity: 0.5;
+}
+
+.footer .newsletter .sign-up h3 {
+	font-size: 1.2rem;
+}
+
+.footer form input {
+	width: 100%;
+	background: #ffffff;
+	border-radius: 5px;
+	border: none;
+	padding: 10px;
+}
+
+.footer-input {
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.footer-button {
+	background: #dd383a;
+	border-radius: 5px;
+	width: 30%;
+	height: 44.5px;
+	border: none;
+	color: #fff;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.footer-button:hover {
+	opacity: 0.8;
+}
+
+.footer .newsletter .sign-up a i {
+	margin: 5px;
+	font-size: 25px;
+	color: #1dbb86;
+}
+
+.disclaimer a{
+	color: #1dbb86;
+}
+
+
+@media (max-width: 1200px) {
+    .showcase .text-center {
+        top: 15vw;
+        left: 16vw;
+	}
+}
+
+@media (max-width: 1000px) {
+    .showcase .text-center {
+        top: 14vw;
+        left: 14vw;
+	}
+	.showcase .content .btn {
+		padding: 10px 25px;
+	}
+}
+
+@media (max-width: 800px) {
+    .showcase .text-center {
+        top: 13vw;
+        left: 10vw;
+	}
+	.showcase .content h2 {
+		font-size: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.showcase .content h2 {
+		font-size: 25px;
+	}/*WHAT WE DO*/
+	.educational .text h2 {
+		font-size: 1.7rem;
+	}
+	.educational .text hr {
+		width: 5.9rem;
+	}
+	.educational .row .col-md-4 .card {
+		margin-bottom: 10px;
+	}
+	.enroll .row .col-md-6 h2 {
+		margin: -3.5rem 0rem 0rem -2rem;
+	}
+	.enroll .row .col-md-6 p {
+		margin: 0rem 0rem 0rem -2rem;
+	}
+    footer {
+        padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+        color: #fff;
+    }
+}
+
+@media (max-width: 600px) {
+	.showcase .content h2 {
+		font-size: 20px;
+	}
+	.showcase .text-center {
+		left: 2vw;
+        right: 2vw;
+	}
+    footer {
+        padding: 2.5rem 2.5rem 1.3rem 2.5rem;
+        color: #fff;
+	}
+}
+
+@media (max-width: 500px) {
+	.showcase .content h2 {
+		font-size: 16px;
+	}
+    .showcase .text-center {
+        top: 15vw;
+		left: 2vw;
+		right: 2vw;
+	}
+	.showcase .content p {
+		font-size: 12px;
+	}
+	.showcase .content .btn {
+		padding: 7px 20px;
+	}
+	/*WHAT WE DO*/
+	.educational .text h2 {
+		font-size: 1.5rem;
+	}
+	.educational .text hr {
+		width: 5.5rem;
+	}
+	.educational .text p {
+		font-size: 1.15rem;
+	}
+	.enroll .row {
+		margin: 1rem;
+	}
+	/*FOOTER*/
+	footer {
+        padding: 1.8rem 1.8rem 1.1rem 1.8rem;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 400px) {
+	.showcase .content h2 {
+		font-size: 14px;
+	}
+	.showcase .content .btn {
+		padding: 5px 15px !important;
+		font-size: 12px;
+	}
+	/*WHAT WE DO*/
+	.educational .row .col-md-4 .card {
+		margin: 0.2rem -0.7rem 0rem -0.7rem !important;
+	}
+	.educational .text h2 {
+		font-size: 1.21rem;
+	}
+	.educational .text hr {
+		display: none;
+	}
+	.educational .text p {
+		font-size: 1rem;
+		margin: 0.2rem -0.7rem 0rem -0.7rem !important;
+	}
+	.enroll .row .col-md-6 h2 {
+		font-size: 22px;
+	}
+	/*FOOTER*/
+	footer {
+		width: 100vw;
+		padding: 1rem .8rem 1rem 1rem;
+	}
+	.footer h3 {
+		font-size: .9rem;
+		margin-bottom: 7px;
+	}
+	.footer p {
+		font-size: 13px;
+	}
+	footer ul li {
+		margin: 4px 0;
+		font-size: 13px;
+	}
+	.footer .newsletter .sign-up h3 {
+		font-size: .9rem;
+	}
+	.footer form input {
+		width: 100%;
+		padding: 3px;
+	}
+	.footer-input {
+		margin-bottom: 20px;
+	}
+	.footer-button {
+		width: 20%;
+		height: 31px;
+		font-size: 10px;
+	}
+	.footer .newsletter .sign-up a i {
+		margin: 3px;
+		font-size: 20px;
+	}
+	.disclaimer {
+		font-size: 12px;
+	}
+}
+
+@media (max-width: 300px) {
+	.showcase .content h2 {
+		margin-top: 10px;
+	}
+	.showcase .content .btn {
+		display: none;
+	}
+}

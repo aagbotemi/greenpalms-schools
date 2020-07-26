@@ -1,0 +1,112 @@
+.contact h1 {
+    color: #dd383a;
+    font-size: 30px;
+}
+
+.contact .row .col-md-7 .get-touch {
+    background: #efefef;
+}
+
+.contact .row .col-md-7 .get-touch form .form-group label {
+    font-size: 18px;
+}
+
+.contact .row .col-md-7 .get-touch form .form-group input {
+    width: 100%;
+}
+
+.contact .row .col-md-7 .get-touch form .form-group input {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid hsl(0, 1%, 85%);
+    ;
+    padding: 3px;
+}
+
+.contact .row .col-md-7 .get-touch form .form-group input:focus {
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid#dd383a;
+}
+
+.contact .row .col-md-7 .get-touch form .form-group textarea {
+    border-radius: 5px;
+    border: 2px solid hsl(0, 1%, 85%);
+    width: 100%;
+}
+
+.contact .row .col-md-7 .get-touch form .form-group textarea:focus {
+    outline: none;
+    border: 2px solid#dd383a;
+}
+
+.contact .row .col-md-7 .get-touch form .btn {
+    background: #dd383a;
+    color: #fff;
+    font-size: 14px;
+}
+
+.contact .row .col-md-7 .get-touch form .btn i {
+    color: #580203;
+}
+
+.contact .row .col-md-5 .details {
+    background: #efefef;
+}
+
+.contact .row .col-md-5 .details .address h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.contact .row .col-md-5 .details .address p {
+    color: #6d6c6c;
+    font-size: 14px;
+}
+
+
+.contact .row .col-md-5 .details .phone h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.contact .row .col-md-5 .details .phone p {
+    color: #dd383a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact .row .col-md-5 .details .email-address h5{
+    font-weight: bold;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+
+.contact .row .col-md-5 .details .email-address p {
+    color: #dd383a;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact .row .col-md-5 .details div .d-flex i {
+    color: #dd383a;
+    font-size: 1.7rem;
+    font-weight: bold;
+    opacity: 1 !important;
+}
+
+@media (max-width: 400px) {
+    .contact h1 {
+        margin-top: 5px !important;
+        font-size: 15px;
+    }
+    .contact .row .col-md-7 .get-touch h4{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .contact .row .col-md-7 .get-touch form .form-group label {
+        font-size: 17px;
+    }
+}

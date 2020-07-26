@@ -1,0 +1,63 @@
+.events {
+    margin: 75px 70px 0px 70px;
+    overflow-x: hidden;
+}
+
+.events h2 span {
+    color: #dd383a;
+}
+
+.events .row .col-md-4 .card {
+    border: none;
+}
+
+.events .row .col-md-4 .card:hover {
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.45);
+}
+
+.events .row .col-md-4 .card .card-body .links p i {
+    color: #dd383a;
+}
+
+.events .row .col-md-4 .card .card-body .links p {
+    font-weight: 500;
+}
+
+.events .row .col-md-4 .card .card-body h5 {
+    margin: -10px 0px 0px 0px;
+}
+
+.events .row .col-md-4 .card .card-body .links .mr-2 {
+    border-right: 1px solid #cacaca;
+}
+
+.events .row .col-md-4 .card .card-body a {
+    border: 1px solid #dd383a;
+    color: #dd383a;
+    padding: 8px 17px;
+    font-weight: bold;
+}
+
+.events .row .col-md-4 .card .card-body a:hover {
+    background: #dd383a;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .events .row .col-md-4 .card {
+        margin-bottom: 1.92em;
+    }
+}
+
+@media (max-width: 500px) {
+    .events {
+        margin: 4rem 1rem 0 1rem;
+    }
+    .events h2 {
+        font-size: 1.2rem;
+    }
+    .events p {
+        font-size: 1rem;
+    }
+}
