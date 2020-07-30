@@ -48,7 +48,7 @@
 .teachers .row .col-md-4 .card .links {
     display: flex;
     position: absolute;
-    top: 15rem;
+    top: 20rem;
     right: 2rem;
 }
 
@@ -87,6 +87,7 @@
     }
     .teachers .row .col-md-4 .card .card-body .links a i {
         color: #01438f;
+        font-size: 1.4rem;
     }
 }
 
