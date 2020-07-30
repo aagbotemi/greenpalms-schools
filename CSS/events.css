@@ -1,6 +1,7 @@
 .events {
-    margin: 75px 70px 0px 70px;
+    margin: 90px 70px 0px 70px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .events h2 span {
@@ -52,10 +53,10 @@
 
 @media (max-width: 500px) {
     .events {
-        margin: 4rem 1rem 0 1rem;
+        margin: 4.6rem 1rem 0 1rem;
     }
     .events h2 {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .events p {
         font-size: 1rem;

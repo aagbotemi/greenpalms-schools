@@ -31,7 +31,6 @@ h1, h2, h3, p, div {
 	max-height: 120vh;
 }
 
-
 /*SHOWCASE Caption text */
 .showcase .content {
     position: absolute;
@@ -46,6 +45,9 @@ h1, h2, h3, p, div {
 
 .showcase .content p {
 	margin-top: 10px;
+	font-size: 17px;
+	color: #efefef;
+	font-weight: bold;
 }
 
 .showcase .content .btn {
@@ -165,7 +167,10 @@ h1, h2, h3, p, div {
 	background: #dd383a;
 	color: #efefef;
 	border-radius: 10px 10px 0px 0px;
-	
+}
+
+.enroll .row .col-md-6 p {
+	font-size: 18px;
 }
 
 .enroll form {
@@ -239,6 +244,16 @@ footer ul li {
 	opacity: 0.5;
 }
 
+footer ul li a {
+	color: #fff;
+}
+
+footer ul li a:hover {
+	color: #1dbb86;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 .footer .newsletter .sign-up h3 {
 	font-size: 1.2rem;
 }
@@ -274,7 +289,7 @@ footer ul li {
 
 .footer .newsletter .sign-up a i {
 	margin: 5px;
-	font-size: 25px;
+	font-size: 30px;
 	color: #1dbb86;
 }
 

@@ -13,13 +13,13 @@
     <!--ANIMATE ON SCROLL-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Title Icon-->
-    <link rel="icon" href="./assets/LOGO.jpg" type="image/x-icon">
-    <title>GREENPALMS SCHOOL</title>
+    <link rel="icon" href="./assets/LOGO.png" type="image/x-icon">
+    <title>ARIZONA SCHOOL</title>
 </head>
 <body>
     <!--NAV-->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="#">GREENPALMS</a>
+        <a class="navbar-brand d-flex" href="#"><img src="./assets/LOGO.png" alt="school-logo" class="img-fluid"> <div>ARIZONA <br> SCHOOL</div></a>
         <button
             class="navbar-toggler"
             type="button"
@@ -70,7 +70,7 @@
             </div>
             <div class="content">
                 <h2>EDUCATION, NEED FOR BETTER LIFE</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> at debitis repellendus necessitatibus id facere, ullam.</p>
+                <p>Every child needs a quality and well-rounded education <br> to become a responsible global citizen.</p>
                 <div class="links">
                     <a class="btn mr-3">About Us</a>
                     <a href="#enroll" class="btn apply"><i class="fas fa-pen-fancy"> Apply Now</i></a>
@@ -85,7 +85,7 @@
             </div>
             <div class="text-center content">
                 <h2>EDUCATION! ACADEMIC EXCELLENCE</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> at debitis repellendus necessitatibus id facere, ullam.</p>
+                <p>Every child needs a quality and well-rounded education <br> to become a responsible global citizen.</p>
                 <div class="links">
                     <a class="btn mr-3">About Us</a>
                     <a href="#enroll" class="btn apply"><i class="fas fa-pen-fancy"> Apply Now</i></a>
@@ -98,9 +98,9 @@
             <div class="showcase-img">
                 <img src="./assets/accomplishment-ceremony-education-graduation-267885.jpg" alt="showcase3" class="img-fluid">
             </div>
-            <div class="text-right content">
+            <div class="text-center content">
                 <h2>EDUCATION DEFINES THE FUTURE</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> at debitis repellendus necessitatibus id facere, ullam.</p>
+                <p>Every child needs a quality and well-rounded education <br> to become a responsible global citizen.</p>
                 <div class="links">
                     <a class="btn apply"><i class="fas fa-pen-fancy"> Apply Now</i></a>
                     <a href="#enroll" class="btn ml-3">About Us</a>
@@ -114,7 +114,7 @@
         <div class="text p-4">
             <h2 class="text-center">We Provide <span>Educational</span> Services</h2>
             <hr>
-            <p class="text-center mr-5 ml-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam qui eius possimus molestias fuga tempore eos minus quisquam sequi pariatur.</p>
+            <p class="text-center mr-5 ml-5">We develop growth mindset which enables students to become more innovative in solving global problem. Join the next big revolution!...</p>
         </div>
         <div class="row ml-5 mr-5">
             <div class="col-md-4 col-sm-12">
@@ -126,7 +126,7 @@
                     <img src="./assets/eliabe-costa-tzsUJD0TGkk-unsplash.jpg" class="card-img-top img-fluid" alt="what-we-do-1">
                     <div class="card-body">
                         <h5 class="card-title">Online Courses Facilities</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, voluptatem. Magnam, itaque! Accusantium, ducimus ullam.</p>
+                        <p>Our online courses are great tools that will change and enhance the delivery and assessment of education forever. What we are seeing now is only scratching the surface.</p>
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                     <img src="./assets/aw-creative-7fF0iei80AQ-unsplash.jpg" class="card-img-top img-fluid" alt="what-we-do-2">
                     <div class="card-body">
                         <h5 class="card-title">Student Admin Panel</h5>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, voluptatem. Magnam, itaque! Accusantium, ducimus ullam.</p>
+                        <p>Our students are taught leadership and taking responsibilities, they are encouraged to think "outside the box".</p>
                     </div>
                 </div>
             </div>
@@ -153,7 +153,7 @@
                         <img src="./assets/crop-chemist-holding-in-hands-molecule-model-3825527.jpg" class="card-img-top img-fluid" alt="what-we-do-3">
                         <div class="card-body">
                             <h5 class="card-title">Perfect Guidelines</h5>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum, voluptatem. Magnam, itaque! Accusantium, ducimus ullam.</p>
+                            <p>A perfect guideline that will guide you into all you need to know concerning our school. They are useful information available to you.</p>
                         </div>
                     </div>
                 </div>
@@ -166,25 +166,25 @@
         <div class="row">
             <div class="col-md-6 col-sm-12 mb-5">
                 <h3 class="mt-5 p-4">Enroll Today</h3>
-                <form>
+                <form id="myForm" action="submit-form.php">
                     <div class="form-group">
                         <label for="firstName">Enter Your Name</label>
-                        <input type="text" placeholder="John Jane">
+                        <input type="text" placeholder="John Jane" required>
                     </div>
                     <div class="form-group">
                         <label for="email">Enter Your Email</label>
-                        <input type="email" placeholder="you@example.com">
+                        <input type="email" placeholder="you@example.com" required>
                     </div>
                     <div class="form-group">
                         <label for="subject">Type your messages here</label>
-                        <textarea name="message" rows="5" cols="48" placeholder="I would like to talking..."></textarea>
+                        <textarea name="message" rows="5" cols="48" placeholder="I would like to talking..."></textarea required>
                     </div>
-                    <button type="submit" class="btn"></i>REGISTER NOW</button>
+                    <button type="submit" onclick="submitform()" class="btn"></i>REGISTER NOW</button>
                 </form>
             </div>
             <div class="col-md-6 col-sm-12 mt-5 pl-5 mb-5">
                 <h2>Enrol your ward today!</h2>
-                <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dicta voluptatum deserunt a corporis dolore veniam libero veritatis tempore quisquam.</p>
+                <p class="mt-4">We are one of the foremost international school in Nigeria. We provide a well-rounded education that enables our students to develop vital life skills and excel academically.</p>
             </div>
         </div>
     </div>
@@ -194,15 +194,15 @@
         <div class="footer row">
             <div class="company col-md-4 col-sm-12 p-4">
                 <h3>ABOUT US</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus asperiores ad illo neque ipsam commodi maiores. Doloremque reprehenderit voluptate aliquam sequi asperiores alias minima porro, minus praesentium! At, debitis commodi?</p>
+                <p>Arizona School is an independent, non-partisan, day and boarding school for boys and girls. We encourage students to be lifelong learners by instilling in them great confidence, respect and a consciousness of the needs of society.</p>
             </div>
             <div class="social col-md-3 col-sm-12 p-4">
                 <h3>QUICK LINKS</h3>
                 <ul>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Testimonial</li>
-                    <li>Contact Us</li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="events.html"></a>Events</li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
             <div class="newsletter col-md-5 col-sm-12 p-4">

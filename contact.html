@@ -15,12 +15,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!--Title Icon-->
     <link rel="icon" href="./assets/LOGO.jpg" type="image/x-icon">
-    <title>GREENPALMS | CONTACT US</title>
+    <title>ARIZONA SCHOOL | CONTACT US</title>
 </head>
 <body>
     <!--NAV-->
     <nav class="navbar navbar-expand-lg fixed-top">
-        <a class="navbar-brand" href="#">GREENPALMS</a>
+        <a class="navbar-brand d-flex" href="#"><img src="./assets/LOGO.png" alt="school-logo" class="img-fluid"> <div>ARIZONA <br> SCHOOL</div></a>
         <button
             class="navbar-toggler"
             type="button"
@@ -71,32 +71,32 @@
                 <div class="col-md-7 col-sm-12 pt-4">
                     <div class="get-touch p-5">
                         <h4>GET IN TOUCH</h4>
-                        <form class="mt-4">
+                        <form id="myForm" action="submit-form.php" class="mt-4">
                             <div class="form-row">
                                 <div class="form-group col-md-6">
                                     <label for="firstName">First Name</label>
-                                    <input type="text" placeholder="First Name">
+                                    <input type="text" placeholder="First Name" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                     <label for="lastName">Last Name</label>
-                                    <input type="text" placeholder="Last Name">
+                                    <input type="text" placeholder="Last Name" required>
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="email" placeholder="Email">
+                                <input type="email" placeholder="Email" required>
                             </div>
                             <div class="form-group">
                                 <label for="subject">Subject</label>
-                                <input type="text" placeholder="Subject of Message">
+                                <input type="text" placeholder="Subject of Message" required>
                             </div>
                             <div class="form-group">
                                 <label for="subject">Message</label>
-                                <textarea name="message" rows="5" cols="48" placeholder="Type your message here..."></textarea>
+                                <textarea name="message" rows="5" cols="48" placeholder="Type your message here..." required></textarea>
                                 
                             </div>
                             
-                            <button type="submit" class="btn mt-2"><i class="fas fa-paper-plane m-2"></i>Send Message</button>
+                            <button type="submit" onclick="submitform()" class="btn mt-2"><i class="fas fa-paper-plane m-2"></i>Send Message</button>
                         </form>
                     </div>
                 </div>
@@ -122,16 +122,12 @@
                                 <i class="fas fa-envelope"></i>
                                 <h5 class="ml-2">Email Address</h5>
                             </div>
-                            <p>info@greenpalms.com</p>
+                            <p>info@arizona.com</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-            
         </div>
-
-        
     </div>
 
     <!-- Footer -->
@@ -139,15 +135,15 @@
         <div class="footer row">
             <div class="company col-md-4 col-sm-12 p-4">
                 <h3>ABOUT US</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus asperiores ad illo neque ipsam commodi maiores. Doloremque reprehenderit voluptate aliquam sequi asperiores alias minima porro, minus praesentium! At, debitis commodi?</p>
+                <p>Arizona School is an independent, non-partisan, day and boarding school for boys and girls. We encourage students to be lifelong learners by instilling in them great confidence, respect and a consciousness of the needs of society.</p>
             </div>
             <div class="social col-md-3 col-sm-12 p-4">
                 <h3>QUICK LINKS</h3>
                 <ul>
-                    <li>About Us</li>
-                    <li>Services</li>
-                    <li>Testimonial</li>
-                    <li>Contact Us</li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="events.html"></a>Events</li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
             <div class="newsletter col-md-5 col-sm-12 p-4">

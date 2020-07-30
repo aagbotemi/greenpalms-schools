@@ -1,6 +1,7 @@
 .gallery {
-    margin: 75px 70px 0px 70px;
+    margin: 90px 70px 0px 70px;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .gallery h2 span{
@@ -29,7 +30,7 @@
 
 @media (max-width: 500px) {
     .gallery {
-        margin: 4rem 1.3rem 0 1.3rem;
+        margin: 4.7rem 1.3rem 0 1.3rem;
     }
     .gallery h2 {
         font-size: 1.4rem;

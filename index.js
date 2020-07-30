@@ -13,28 +13,28 @@ function showSlides() {
     setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
-/*Counter Animation */
-// let nCount = function(selector) {
-//     $(selector).each(function(){
+
+/** COUNTER */
+const counters = document.querySelectorAll('.counter');
+const speed = 200;
+counters.forEach(counter => {
+    const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText;
+
+        const inc = target / speed;
         
-//         $(this).animate({
-//             Counter: $(this).text()
-//         }, {
-//             duration: 4000,
-//             easing: "swing",
-//             step: function(value){
-//                 $(this).text(Math.ceil(value));
-//             }
-//         });
+        if (count < target) {
+            counter.innerText = count + inc;
+            setTimeout(updateCount, 1);
+        } else {
+            counter.innerText = target;
+        }
+    };
+    updateCount();
+});
 
-//     });
-// };
-
-// let a = 0;
-// $(window).scroll(function(){
-//     let oTop = $(".numbers").offset().top - window.innerHeight;
-//     if (a == 0 && $(window).scrollTop() >= oTop) {
-//         a++;
-//         nCount(".col-md-3 > h1");
-//     }
-// }  )
+/**FORM SUBMISSION */
+function submitform() {
+    document.forms['myForm'].submit();
+}
