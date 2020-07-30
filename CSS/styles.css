@@ -36,7 +36,6 @@ h1, h2, h3, p, div {
     position: absolute;
     top: 16vw;
     left: 18vw;
-	/* width: 550px; */
 }
 
 .showcase .content h2 {
@@ -326,6 +325,9 @@ footer ul li a:hover {
 }
 
 @media (max-width: 767px) {
+	.showcase .content {
+		top: 18vw;
+	}
 	.showcase .content h2 {
 		font-size: 25px;
 	}/*WHAT WE DO*/
@@ -406,6 +408,9 @@ footer ul li a:hover {
 	.showcase .content .btn {
 		padding: 5px 15px !important;
 		font-size: 12px;
+	}
+	.showcase .content {
+		top: 20vw;
 	}
 	/*WHAT WE DO*/
 	.educational .row .col-md-4 .card {

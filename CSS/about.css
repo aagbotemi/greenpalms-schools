@@ -102,7 +102,7 @@
 .teachers .row .col-md-4 .card .links {
     display: flex;
     position: absolute;
-    top: 21rem;
+    top: 15rem;
     right: 2rem;
 }
 
@@ -137,6 +137,12 @@
     }
     .teachers .row .col-md-4 {
         margin-bottom: 0.8rem;
+    }
+    .teachers .row .col-md-4 .card .links a {
+        display: block;
+    }
+    .teachers .row .col-md-4 .card .card-body .links a i {
+        color: #01438f;
     }
 }
 
